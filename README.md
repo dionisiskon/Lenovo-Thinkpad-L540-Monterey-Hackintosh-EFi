@@ -35,7 +35,7 @@ For the ROM, google it. You can use your network card's MAC Address.
 - SD Card Reader
 
 # What Works
-
+- Bluetooth
 - USB Ports (Created kext with Hackintool for my specific Notebook)
 - Camera (Same as USB Ports)
 - Audio (Fixed using alcid = 59 in boot-args)
