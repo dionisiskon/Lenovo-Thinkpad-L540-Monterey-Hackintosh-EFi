@@ -5,7 +5,7 @@ Before making any new changes, you can backup the original config.plist file in 
 If something goes wrong with the config.plist, your laptop may not boot up. If you don't have a Mac OS USB with an EFI folder, so that the laptop can boot up, 
 use the OpenShell that is included in the Opencore boot-up menu. I used it to remove a faulty kext from config.plist or you can use it to restore the aforementioned backed up config.plist. Example:
 
-1. typing "fs0:" and press enter in the shell to check out the contents. (Try it until you find the drive with the EFI folder)
+1. type "fs0:" and press enter in the shell to check out the contents. (Try it until you find the drive with the EFI folder)
 2. "cd EFI" and press enter to go inside the EFI folder, and then "cd OC" and press enter to go inside the OC folder where the config.plist file is located
 3. "edit config.plist" and press enter to edit the file and change faulty addition of config.plist.
 4. Ctrl + S press on keyboard to save and then you can reboot pc 
