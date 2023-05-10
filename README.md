@@ -59,3 +59,4 @@ Never reset NVRAM in these laptops!!!! It may brick your laptop. It is a common 
 # Credits
   - breakfastdeep/Lenovo-Thinkpad-L540-MacOS-Monterey (When I first used Monterey, I utilized his EFI folder) 
   - receperoglu/HackintoshBigSurOpenCore_Thinkpad_L540 (When I was using Big Sur, I used this Big Sur repo so I simply added it in the credits)
+  - cholonam/Sinetek-rtsx (A repo for the SD card reader kext)
