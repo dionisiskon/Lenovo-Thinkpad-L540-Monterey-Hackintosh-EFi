@@ -8,11 +8,14 @@
   - RAM: 8GB RAM
   - AUDIO: ALC292
   - SD CARD READER: Realtek RTS5227 SD CARD READER
+
 # How to use
+
 Generate SMBIOS and include them in PlatformInfo -> Generic -> SystemUUID, SystemSerialNumber, SystemMLB.
 For the ROM, google it. You can use your network card's MAC Address.
 
 # Issues that were encountered and solved
+
 - USB Ports 
 - Camera  
 - Keyboard Shortcuts were a bit messed up
@@ -30,8 +33,15 @@ For the ROM, google it. You can use your network card's MAC Address.
 - Wifi (Either itlwm + heliport or Airportitwlm works. I use Airportitlwm because I find it better)
 
 # What doesn't work
+
 - Possibly Smartcard Reader, even though I haven't tested it and is recognized by the system
-- VGA is a common problem among fans, even though using a VGA to HDMI fixes it, google it
+- VGA is a common problem encountered in hackintosh machines, even though using a VGA to HDMI fixes it. Google it!
+
+# Bugs
+
+- Some Thinkpad keyboard shortcuts may not work. I have a faulty keyboard and can't test it.
+- Sinetek rstx may interefere with the sleep of laptop, even though there is a thread in the repo of sinetek-rstx that says how to resolve this issue.
+- SD Card Reader has an unsigned class so every time you boot it will say unknown card drive, but I promise it works! I simply drag it using COMMAND + mouse click to the middle of the screen and it dissapears from the status bar
 
 # What to avoid
 Never reset NVRAM in these laptops!!!! It may brick your laptop. It is a common issue among these specific models.
