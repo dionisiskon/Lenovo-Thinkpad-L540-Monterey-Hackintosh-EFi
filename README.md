@@ -12,7 +12,7 @@
 Generate SMBIOS and include them in PlatformInfo -> Generic -> SystemUUID, SystemSerialNumber, SystemMLB.
 For the ROM, google it. You can use your network card's MAC Address.
 
-# Issues 
+# Issues that were encountered and solved
 - USB Ports 
 - Camera  
 - Keyboard Shortcuts were a bit messed up
