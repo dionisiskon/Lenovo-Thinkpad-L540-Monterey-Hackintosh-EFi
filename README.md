@@ -52,7 +52,7 @@ For the ROM, google it. You can use your network card's MAC Address.
 - VGA is a common problem encountered in hackintosh machines, even though using a VGA to HDMI fixes it. Google it!
 
 # Bugs
-
+- A popping sound when you boot pc and when you plug in headphones that lasts for 1 sec
 - Some Thinkpad keyboard shortcuts may not work. I have a faulty keyboard and can't test it.
 - Sinetek rstx may interefere with the sleep of laptop, even though there is a thread in the repo of sinetek-rstx that says how to resolve this issue.
 - SD Card Reader has an unsigned class so every time you boot it will say unknown card drive, but I promise it works! I simply drag it using COMMAND + mouse click to the middle of the screen and it dissapears from the status bar
