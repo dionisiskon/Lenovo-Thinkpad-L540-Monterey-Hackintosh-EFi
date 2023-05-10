@@ -13,8 +13,8 @@ use the OpenShell that is included in the Opencore boot-up menu. I used it to re
 
 # Specs of original L540
 
-  - CPU: Intel 4300M
-  - GPU: Intel HD 4600 (Integrated)
+  - CPU: Intel i5-4300M
+  - GPU: Intel HD Graphics 4600 (Integrated)
   - STORAGE: 128GB SSD
   - RAM: 8GB RAM
   - AUDIO: ALC292
