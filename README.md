@@ -41,6 +41,9 @@ For the ROM, google it. You can use your network card's MAC Address.
 - SD Card Reader (RealtekCardReader + RealtekCardReaderFriend didn't work, but Sinetek-rstx did)
 - Bluetooth hash mismatch (UEFI -> ProtocolOverrides -> HashServices -> True)
 - Wifi (Either itlwm + heliport or Airportitwlm works. I use Airportitlwm because I find it better)
+- GPU is properly detected and animations work.
+- Energy management, even though it isn't optimized to the max
+- etc...
 
 # What doesn't work
 
