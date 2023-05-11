@@ -13,7 +13,7 @@ use the OpenShell that is included in the Opencore boot-up menu. I used it to re
 3. "edit config.plist" and press enter to edit the file and change faulty addition of config.plist.
 4. Ctrl + S press on keyboard to save and then you can reboot pc 
 
-# Specs of original L540
+# Specs of my L540 notebook
 
   - CPU: Intel i5-4300M
   - GPU: Intel HD Graphics 4600 (Integrated)
