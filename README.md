@@ -1,6 +1,7 @@
 # Lenovo-Thinkpad-L540-Monterey-Hackintosh-EFi
 ## For MacOS Monterey only!
-I do not take any responsibility, in case you bricked your laptop! I suggest always trying out the EFI folder using a USB drive and install it afterwards.
+I do not take any responsibility, in case you bricked your laptop! I suggest always trying out the EFI folder using a USB drive and install it afterwards. I only made this repo as a way to give back to the community, since the EFI folders were found here for my notebook, when I started my MacOS journey.
+
 Before making any new changes, you can backup the original config.plist file in the same folder as the new one, just in case something goes wrong and you need to restore it.
 
 If something goes wrong with the config.plist, your laptop may not boot up. If you don't have a Mac OS USB with an EFI folder, so that the laptop can boot up, 
