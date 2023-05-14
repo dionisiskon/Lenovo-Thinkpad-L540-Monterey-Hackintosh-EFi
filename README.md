@@ -37,12 +37,11 @@ For the ROM, google it. You can use your network card's MAC Address.
 - SD Card Reader
 
 # What Works
-- Bluetooth
 - USB Ports (Created kext with Hackintool for my specific Notebook)
 - Camera (Same as USB Ports)
 - Audio (Fixed using alcid = 59 in boot-args)
 - SD Card Reader (RealtekCardReader + RealtekCardReaderFriend didn't work, but Sinetek-rstx did)
-- Bluetooth hash mismatch (UEFI -> ProtocolOverrides -> HashServices -> True)
+- Bluetooth (sudo purge in terminal when booting if it doesn't work or shows the error hash mismatch)
 - Wifi (Either itlwm + heliport or Airportitwlm works. I use Airportitlwm because I find it better)
 - GPU is properly detected and animations work.
 - Energy management, even though it isn't optimized to the max
@@ -58,6 +57,9 @@ For the ROM, google it. You can use your network card's MAC Address.
 - Some Thinkpad keyboard shortcuts may not work. I have a faulty keyboard and can't test it.
 - Sinetek rstx may interefere with the sleep of laptop, even though there is a thread in the repo of sinetek-rstx that says how to resolve this issue.
 - SD Card Reader has an unsigned class so every time you boot it will say unknown card drive, but I promise it works! I simply drag it using COMMAND + mouse click to the middle of the screen and it dissapears from the status bar
+
+# Testing 
+- Bluetooth hash mismatch (UEFI -> ProtocolOverrides -> HashServices -> True) to fix bluetooth was unstable...Testing without it and with command sudo purge in command line for fixing the bluetooth issue
 
 # What to avoid
 Never reset NVRAM in these laptops!!!! It may brick your laptop. It is a common issue among these specific models.
